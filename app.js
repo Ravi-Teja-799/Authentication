@@ -113,7 +113,7 @@ app.put("/change-password", async (request, response) => {
       }
     } else {
       response.status(400);
-      response.send("Invalid current password");
+      response.send("Invalid password");
     }
   }
 });
